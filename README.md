@@ -58,4 +58,8 @@ systemctl disable NetworkManager
  - "# vi /etc/sysconfig/network-scripts/ifconfig-"라고 치고 탭탭하면 네트워크명이 나온다
  - en으로 시작하는 것 선택 후 수정
 
-
+### Centos7 ip 주소확인
+```
+# ip a s
+# ip addr show
+```
