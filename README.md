@@ -52,4 +52,10 @@ systemctl disable NetworkManager
 ```
 # /etc/sysconfig/selinux
 ```
+ - 실습때는 일단 비활성화
+
+### 네트워크 설정 변경
+ - "# vi /etc/sysconfig/network-scripts/ifconfig-"라고 치고 탭탭하면 네트워크명이 나온다
+ - en으로 시작하는 것 선택 후 수정
+
 
