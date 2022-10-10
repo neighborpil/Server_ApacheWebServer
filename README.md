@@ -41,3 +41,15 @@ systemctl disable NetworkManager
 # service iptables save  # iptable 설정 저장
 ```
 
+### SELINUX
+ - Security Enhanced Linux
+ - 리눅스 커널 보안 모듈
+ - 3가지 상태 존재
+    + enforcing: 강제
+    + permissive: 허용
+    + disabled: 비활성화
+ - 설정 파일: 해당 파일을 수정하여 상태 변경
+```
+# /etc/sysconfig/selinux
+```
+
