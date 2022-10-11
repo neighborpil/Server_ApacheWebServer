@@ -63,3 +63,12 @@ systemctl disable NetworkManager
 # ip a s
 # ip addr show
 ```
+
+### 패키지 설치
+```
+# yum -y install httpd
+# yum install -y openssl mod_ssl
+# yum install -y wget elinks git curl lynx tree
+# yum install -y mariadb-server mariadb
+# yum install -y php php-mysql
+```
